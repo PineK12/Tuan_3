@@ -14,6 +14,7 @@ int main()
 	cout<<"Nhap b: ";
 	cin>>b;
 	cout<<"Tong =";
+	cout<<"Tong ="<<tong(a,b)<<endl;
 	cout<<"Hieu ="<<hieu(a,b)<<endl;
 	cout<<"Tich ="<<tich(a,b)<<endl;
 	cout<<"Kiem tra so chinh phuong: \n";
@@ -22,6 +23,10 @@ int main()
 	system("pause");
 	return 0;
 }
+int tong(int a, int b){
+	return a+b;
+}
+
 int hieu(int a, int b){
 	return a-b;
 }
